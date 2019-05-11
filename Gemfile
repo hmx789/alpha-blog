@@ -7,8 +7,13 @@ ruby '2.5.1'
 gem 'rails', '~> 5.2.2'
 # Use sqlite3 as the database for Active Record
   # removed for heroku
-#bootstrap rails
+
+gem "bootstrap", ">= 4.3.1"
+
 gem 'bootstrap-sass', '~> 3.4.1'
+
+gem 'jquery-rails'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
